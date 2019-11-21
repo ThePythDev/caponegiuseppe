@@ -1,0 +1,205 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+.footer {
+    color: white;
+    background-color: rgb(32, 32, 32);
+}
+
+.modal {
+    position: fixed;
+    top: 25%;
+    color: rgb(48, 48, 48);
+}
+
+.input-border-bottom {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    border-radius: 0;
+    outline: 0;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.input-border-bottom:focus {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    border-radius: 0;
+    outline: 0;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.contactme-btn {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.contactme-btn:hover {
+    color: rgb(48, 48, 48);
+    background-color: white;
+}
+
+.contactme-form {
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(32, 32, 32);
+}
+
+.contactMe {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.icons {
+    font-size: 150px;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    background-color: rgb(48, 48, 48);
+}
+
+.card-header {
+    background-color: rgb(32, 32, 32);
+}
+
+.aboutMe {
+    background-color: white;
+    color: rgb(48, 48, 48);
+}
+
+.jobs {
+    background-color: white;
+    color: rgb(48, 48, 48);
+}
+
+.jobs a {
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+.products {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.section-title {
+    font-size: 50px;
+}
+
+.navbar-dark {
+    background-color: rgb(24, 24, 24);
+}
+
+.img-navbar {
+    max-width: 30px;
+}
+
+.fullscreen {
+    height: 100vh;
+    min-height: 500px;
+}
+
+.low-opacity {
+    opacity: 0.8;
+}
+
+.main-page {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+.main-font-size {
+    font-size: 70px;
+}
+
+.btn-main {
+    border-radius: 50%;
+    background-color: rgb(48, 48, 48);
+    border: none;
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-main:hover {
+    background-color: white;
+    color: rgb(48, 48, 48);
+}
+
+.btn-main:active {
+    background-color: rgb(48, 48, 48) !important;
+    color: white !important;
+    border: none !important;
+}
+
+@media all and (max-width:720px) {
+    .img-header {
+        max-width: 150px;
+    }
+    .main-font-size {
+        font-size: 50px;
+    }
+    #cit {
+        padding-top: 10%;
+    }
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+}
+
+/*      ANIMAZIONI      */
+
+.slideanim {
+    visibility: hidden;
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}

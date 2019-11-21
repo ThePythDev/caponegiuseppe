@@ -1,0 +1,193 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+p {
+    line-height: 2;
+}
+
+.title {
+    letter-spacing: 5px;
+    font-size: 10vh;
+}
+
+.fullsize {
+    height: 100vh;
+    min-height: 500px;
+}
+
+.header {
+    background: url('/Nolimar/img/header.jpg') no-repeat;
+    background-size: cover;
+}
+
+.hamburger-position {
+    position: fixed;
+    top: 42px;
+    right: 50px;
+    z-index: 10;
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    z-index: 5;
+    right: 0;
+}
+
+.aboutus-left {
+    background: url('https://i.ytimg.com/vi/LB8GV2CBOjw/maxresdefault.jpg') no-repeat;
+    background-size: cover;
+    background-position-x: 30%;
+    height: 100%;
+}
+
+.aboutus-right {
+    font-size: 60px;
+    letter-spacing: -.08em;
+}
+
+.header-text-center {
+    color: white;
+}
+
+.comarprimo {
+    background-color: rgb(115, 151, 230);
+    color: #fff;
+    height: auto;
+}
+
+.gru {
+    background-color: rgb(92, 120, 179);
+    color: #fff;
+    height: auto;
+}
+
+.personale {
+    background-color: rgb(65, 85, 128);
+    color: #fff;
+    height: auto;
+}
+
+.font-small {
+    font-size: 11px;
+}
+
+.contact-form {
+    background-color: rgb(250 250 250);
+}
+
+.partners {
+    max-width: 250px;
+}
+
+.input-border-bottom {
+    border: 0;
+    border-bottom: 3px solid #b4becb;
+    border-radius: 0;
+    outline: 0;
+}
+
+.vertical {
+    position: absolute;
+    left: 46px;
+    bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #fff;
+    text-shadow: 1px 1px 2px #111;
+    z-index: 10;
+}
+
+.vertical span {
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+}
+
+.vertical::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 50px;
+    background-color: #fff;
+    margin: 14px 0 0 5px;
+}
+
+.vertical-black {
+    position: absolute;
+    left: 46px;
+    bottom: 0;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #000;
+    text-shadow: 1px 1px 2px #111;
+    z-index: 10;
+}
+
+.vertical-black span {
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+}
+
+.vertical-black::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 50px;
+    background-color: #000;
+    margin: 14px 0 0 5px;
+}
+
+.font-black {
+    color: #000000;
+}
+
+.aboutus-image {
+    background: url('https://i.ytimg.com/vi/LB8GV2CBOjw/maxresdefault.jpg') no-repeat;
+    background-size: cover;
+    background-position-x: 30%;
+    height: 100%;
+}
+
+.aboutus-mobile {
+    display: none;
+}
+
+@media all and (max-width:720px) {
+    h1 {
+        font-size: 25px;
+    }
+    .title {
+        color: white;
+    }
+    .menu {
+        width: 100%;
+    }
+    .aboutus-right {
+        font-size: 25px;
+    }
+    .partners {
+        max-width: 100px;
+    }
+    .aboutus-mobile {
+        display: block;
+    }
+    #aboutus-desktop {
+        display: none;
+    }
+}
